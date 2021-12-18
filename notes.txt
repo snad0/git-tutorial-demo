@@ -38,3 +38,6 @@ git log --since=2.days-----2din k changes dikhaega
 git log --pretty=format:"%h -- %an"(we also have other symbols we can add after format:)----- h= hash commit/ an= author name
 git commit --amend------ kisi change k andar apna change dalna hi to use krenge
 ammend me----(i dabas k type kr skte hai fir Esc daba k colon dabao or wir wq daba k enter maar do)
+git restore --stage file-name-----to unstage staged file
+git checkout -- file-name------unmodify any changes in a file(kuch delete hogya to waps ajaega)
+git checkout -f sare changes ud jaenge or restore hojaega pichle commit me
