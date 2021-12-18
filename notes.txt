@@ -1,0 +1,40 @@
+this is text file]
+i want this to go in commit
+ 
+git status----- status chexk krne k lie
+git init -----agar repository bani hui nhi hai to ban jaegi
+git add --a (git add .)-------sari files add krne k lie add comand se track karta hai fir staging area me dalta h (staged files go jaengi)
+git add file name------specific file add krne k lie
+git commit -m----- commit karane k lie
+git log--------changess dekhne k lie
+rm -rf .git------git repository ko delete kar dega
+pwd----present working directory
+ls--- list content
+cd----change directory//cd krke naam dalenge to us directory me ajaega
+toucch File-name.log-------to generate new file
+touch .gitignore--------- agar kisi file ko ignore karana chahte hai to .gitignore banae or usme jis file ko ignore karna hua uska naam del den.
+
+agar bht sari .log files generate ho jati hai to hum subko ek sath ignore krne k lie .gitignore me *.log likh saakte hain
+
+isis tarha agar ko folder bana dia or usko ignore karna hai to folder-name/ likh kar ignore kar sakte hai to poori directory me is naam ka folder kahi bhi hoga to wo ignore hojaega
+but
+agar me /folder-name/ likhta hu to bahar wala folder ignore hoga bas agar kisi folder k andr isi naam se folder hua to wo ignore nahi hoga
+path bhi daal sakte h agr andar ki koi file ya folder dalna h to 
+git diff-------ye compare krega working area ko staging directory se taki uhme pta chle konsi file me changes hue h 
+git diff --staged -------- pichle commit ko abhi k staging area se compare krta h
+git commit -a -m ----staging area ko skip krta hue commit krdenge to jo bhi files repository me h wo commit hongi jo untracked hai wo nahi
+q----- bht sare commit hai to whnn se exit krne k lie
+git rm file-name----- to remove any file(we will do it from git becase this command will nnot only delete it but also will stage the changes)
+git mv file-name new-name-----to rename a file
+git log -p ------ log k sath diff bhi dikhaega matlab kis file me kya changes hue h
+git log -p -number------jitne numberof changers dekhne hai utne dikhaega
+git log --stat------- same diff btaega lekin simplify krke
+q
+git log --pretty ------or zyada simplified way me dikhaega
+git log --pretty=oneline------ek hi line me change bata dega
+git log --pretty=short
+git log --pretty=full
+git log --since=2.days-----2din k changes dikhaega
+git log --pretty=format:"%h -- %an"(we also have other symbols we can add after format:)----- h= hash commit/ an= author name
+git commit --amend------ kisi change k andar apna change dalna hi to use krenge
+ammend me----(i dabas k type kr skte hai fir Esc daba k colon dabao or wir wq daba k enter maar do)
